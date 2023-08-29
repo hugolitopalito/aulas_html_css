@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <legend>Dados Pessoais</legend>
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="sobrenome" placeholder="Sobrenome"required>
+            <input type="email" id="email" placeholder="Email"required>
+            <input type="password" id="senha" placeholder="Senha"required>
+        </div>
+        <div>
+            <p>Quem ganhou a ultima copa masculina?</p>
+            <input type="radio" id="time1" name="copa" >
+            <label for="time1">Brasil</label>
+        </div>
+        <div>
+            <input type="radio" id="time2" name="copa" >
+            <label for="time2">Argentina</label>
+        </div>
+        <div>
+            <input type="radio" id="time3" name="copa" >
+            <label for="time3">França</label>
+        </div>
+        <div>
+            <label for="idade">Qual a sua faixa etaria</label>
+            <select name="idade" id="idade">
+                <option value="" >15-30 anos</option>
+                <option value="">30-55 anos</option>
+                <option value="">55+ anos</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
